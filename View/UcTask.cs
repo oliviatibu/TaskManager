@@ -264,6 +264,15 @@ namespace TaskManager.View
 
         #endregion
 
+        /// <summary>
+        /// The picture delete_ click.
+        /// </summary>
+        /// <param name="sender">
+        /// The sender.
+        /// </param>
+        /// <param name="e">
+        /// The e.
+        /// </param>
         private void PictureDelete_Click(object sender, EventArgs e)
         {
             var tableLayoutPanel = (TableLayoutPanel)sender;
